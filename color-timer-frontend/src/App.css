@@ -1,0 +1,103 @@
+body {
+  transition: background-color 1s ease;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+.time{
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 85px
+}
+
+button{
+  margin: 5px;
+  padding: 10px;
+  background-color: #3c0862;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button:hover{
+  background-color: #301047;
+}
+
+button:active{
+  background-color: #170723;
+}
+
+.main-button{
+  margin: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #510a83;
+}
+
+.preset-button {
+  display: inline-block;
+  width: calc(80% - 10px); 
+  margin: 5px 5px 5px 0; 
+  padding: 10px;
+  background-color: #510a83;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.preset-button:hover{
+  background-color: #1f0532;
+}
+
+.preset-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+}
+
+.preset-item{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 5px;
+}
+
+.preset-input {
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+.delete-button {
+  display: inline-block;
+  width: 15%; 
+  padding: 10px;
+  background-color: #3a0745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #ff0000;
+}
